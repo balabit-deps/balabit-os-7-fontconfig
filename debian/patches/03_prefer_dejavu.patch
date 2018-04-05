@@ -1,0 +1,37 @@
+Description: Prefer DejaVu over Bitstream Vera
+---
+ conf.d/60-latin.conf |    6 +++---
+ 1 file changed, 3 insertions(+), 3 deletions(-)
+
+--- a/conf.d/60-latin.conf
++++ b/conf.d/60-latin.conf
+@@ -4,8 +4,8 @@
+ 	<alias>
+ 		<family>serif</family>
+ 		<prefer>
+-			<family>Bitstream Vera Serif</family>
+ 			<family>DejaVu Serif</family>
++			<family>Bitstream Vera Serif</family>
+ 			<family>Times New Roman</family>
+ 			<family>Thorndale AMT</family>
+ 			<family>Luxi Serif</family>
+@@ -17,8 +17,8 @@
+ 	<alias>
+ 		<family>sans-serif</family>
+ 		<prefer>
+-			<family>Bitstream Vera Sans</family>
+ 			<family>DejaVu Sans</family>
++			<family>Bitstream Vera Sans</family>
+ 			<family>Verdana</family>
+ 			<family>Arial</family>
+ 			<family>Albany AMT</family>
+@@ -34,8 +34,8 @@
+ 	<alias>
+ 		<family>monospace</family>
+ 		<prefer>
+-			<family>Bitstream Vera Sans Mono</family>
+ 			<family>DejaVu Sans Mono</family>
++			<family>Bitstream Vera Sans Mono</family>
+ 			<family>Inconsolata</family>
+ 			<family>Andale Mono</family>
+ 			<family>Courier New</family>
